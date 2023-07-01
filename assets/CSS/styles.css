@@ -4,10 +4,26 @@
     box-sizing: border-box;
 }
 
+.container{
+    margin: auto;
+    width: 85%;
+}
+
 .d-flex{
     display: flex;
 }
 
 main{
     font-family: 'Poppins', sans-serif;
+}
+
+
+.profile-picture img, .picture-bg img{
+    width: 487px;
+    height: 710px;
+}
+
+.tech-tools_img img{
+    width: 50px;
+    height: 50px;
 }
