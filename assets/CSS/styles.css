@@ -119,3 +119,8 @@ footer{
     width: 20%;
 }
 
+.footer-img_container{
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
