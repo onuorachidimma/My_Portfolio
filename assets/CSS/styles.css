@@ -117,6 +117,7 @@ footer{
 .footer-container{
     margin: auto;
     width: 20%;
+    --dark: #21243D;
 }
 
 .footer-img_container{
