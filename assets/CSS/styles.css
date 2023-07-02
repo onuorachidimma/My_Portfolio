@@ -17,7 +17,22 @@ main{
     font-family: 'Poppins', sans-serif;
 }
 
+/* HEADER */
 
+.header-container img{
+    width: 93px;
+    height: 72px;
+    margin-bottom: 6rem;
+    margin-top: 4rem;
+}
+
+
+
+/* MAIN */
+
+.main-container{
+    justify-content: space-between;
+}
 .profile-picture img, .picture-bg img{
     width: 487px;
     height: 710px;
