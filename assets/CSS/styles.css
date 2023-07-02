@@ -32,11 +32,19 @@ main{
 
 .main-container{
     justify-content: space-between;
-    border: 2px solid red;
+    
 }
 
 .text-container{
 padding-top: 20px;
+}
+
+.name{
+    color: #3A3A3A;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 132%;
+    letter-spacing: -0.72px;
 }
 
 
