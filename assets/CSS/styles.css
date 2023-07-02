@@ -45,6 +45,9 @@ main{
 
 .profile-picture{
     position: absolute;
+    right: 20px;
+    top: -20px;
+
 }
 
 .tech-tools_img img{
