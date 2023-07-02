@@ -125,3 +125,11 @@ footer{
     margin-bottom: 15px;
 }
 
+.copyright{
+    color: var(--dark);
+    text-align: center;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
