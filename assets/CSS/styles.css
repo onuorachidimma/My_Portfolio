@@ -59,6 +59,16 @@ padding-top: 20px;
     letter-spacing: -1.6px;
 }
 
+.contact-info{
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.32px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
 
 .image-container{
     position: relative;
