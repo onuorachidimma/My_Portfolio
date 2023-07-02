@@ -47,6 +47,14 @@ padding-top: 20px;
     letter-spacing: -0.72px;
 }
 
+.track{
+    color: #FF408C;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 132%;
+    letter-spacing: -1.6px;
+}
+
 
 .image-container{
     position: relative;
