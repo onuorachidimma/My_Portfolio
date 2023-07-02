@@ -13,9 +13,6 @@
     display: flex;
 }
 
-main{
-    font-family: 'Poppins', sans-serif;
-}
 
 /* HEADER */
 
@@ -29,13 +26,25 @@ main{
 
 
 /* MAIN */
+main{
+    font-family: 'Poppins', sans-serif;
+}
 
 .main-container{
     justify-content: space-between;
 }
+
+.image-container{
+    position: relative;
+}
+
 .profile-picture img, .picture-bg img{
     width: 487px;
     height: 710px;
+}
+
+.profile-picture{
+    position: absolute;
 }
 
 .tech-tools_img img{
