@@ -6,7 +6,7 @@
 
 .container{
     margin: auto;
-    width: 85%;
+    width: 75%;
 }
 
 .d-flex{
@@ -47,7 +47,13 @@ main{
     position: absolute;
     right: 20px;
     top: -20px;
+}
 
+.vector-img{
+    position: absolute;
+    right: -3.3rem;
+    top: 37.5rem;
+    z-index: -2;
 }
 
 .tech-tools_img img{
