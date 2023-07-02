@@ -142,3 +142,47 @@ footer{
         width: 90%;
     }    
 }
+
+@media screen and (max-width: 1280px)  {
+    .container{
+        width: 80%;
+    }
+
+    .text-container{
+        padding-top: 50px;
+    }
+
+    .name, .country{
+        font-size: 25px;
+    }
+    
+    .track{
+        font-size: 52px;
+    }
+    
+    .contact-info{
+        font-size: 13px;
+    }
+    
+    .profile-picture img, .picture-bg img{
+        width: 350px;
+        height: 610px;
+    }
+
+    .profile-picture{
+        right: 20px;
+        top: -20px;
+    }
+
+    .vector-img img{
+        width: 150px;
+        height: 100px;
+    }
+
+    .vector-img{
+        right: -3.6rem;
+        top: 31.1rem;
+    }
+
+    
+}
