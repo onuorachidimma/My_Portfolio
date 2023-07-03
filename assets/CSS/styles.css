@@ -205,3 +205,33 @@ footer{
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 960px) {
+   
+    .name, .country{
+        font-size: 22px;
+    }
+    
+    .track{
+        font-size: 43px;
+    }
+    
+    .profile-picture img, .picture-bg img{
+        width: 300px;
+        height: 560px;
+    }
+
+    .vector-img{
+        right: -3.6rem;
+        top: 27.2rem;
+    }
+
+    .copyright{
+        font-size: 9.5px;
+    }
+
+    .footer-img_container img{
+        width: 20px;
+        height: 20px;
+    }
+}
