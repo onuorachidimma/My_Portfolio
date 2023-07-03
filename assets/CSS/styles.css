@@ -319,3 +319,62 @@ footer{
         top: 25.9rem;
     }
 }
+
+@media screen and (max-width: 760px){
+    .container{
+        background-color: re;
+        width: 80%;
+    }
+
+    .header-container{
+        width: 100%; 
+    }
+
+    .header-container img{
+        width: 45px;
+        margin-bottom: 1rem;
+    }
+
+    .main-container{
+        margin: 0;
+    }
+
+    .name, .country{
+        font-size: 24px;
+    }
+    
+    .name{
+        line-height: 5rem;
+    }
+    
+    .track{
+        font-size: 48px;
+        line-height: 12px;  
+    }
+
+    .profile-picture img, .picture-bg img{
+        width: 487px;
+    }
+
+    .picture-bg{
+        position: absolute;
+        left: -30rem;
+        top: 17rem;
+        z-index: -1;
+    }
+
+    .profile-picture{
+        left: -31.5rem;
+        top: 15.5rem;
+    }
+
+    .vector-img{
+        top: 48.1rem;
+        right: -1.1rem;
+    }
+
+    .contact-info{
+        margin-top: 42rem;
+        font-size: 18px;
+    }
+}
