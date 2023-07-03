@@ -235,3 +235,58 @@ footer{
         height: 20px;
     }
 }
+
+@media screen and (max-width: 860px){
+
+    .container{
+        width: 100%;
+    }
+
+    .header-container{
+        margin: auto;
+        width: 83%;  
+    }
+
+    .header-container img{
+        width: 60px;
+        margin-bottom: 2rem;
+    }
+
+    .text-container{
+        padding-top: 65px;
+    }
+
+    .main-container{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .name, .country{
+        font-size: 19px;
+    }
+    
+    .track{
+        font-size: 37px;
+    }
+
+    .tools{
+        font-size: 17px;
+    }
+
+    .tech-tools_img img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .profile-picture img, .picture-bg img{
+        width: 280px;
+    }
+
+    .vector-img{
+        top: 26.3rem;
+    }
+
+    footer{
+        margin-top: 5rem;
+    }
+}
