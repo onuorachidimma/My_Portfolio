@@ -290,3 +290,32 @@ footer{
         margin-top: 5rem;
     }
 }
+
+@media screen and (max-width: 800px) {
+
+    .header-container img{
+        width: 52px;
+        margin-bottom: 1.5rem;
+    }
+
+    .text-container{
+        padding-top: 69px;
+    }
+
+    .track{
+        font-size: 31px;
+    }
+
+    .contact-info{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .profile-picture img, .picture-bg img{
+        width: 270px;
+    }
+
+    .vector-img{
+        top: 25.9rem;
+    }
+}
