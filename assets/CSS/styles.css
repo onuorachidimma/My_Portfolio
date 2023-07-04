@@ -506,3 +506,9 @@ footer{
         margin-top: 27rem;
     }
 }
+
+@media screen and (max-width: 285px){
+    .container{
+        width: 88%;
+    }
+}
