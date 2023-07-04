@@ -408,3 +408,67 @@ footer{
     }
     
 }
+
+@media screen and (max-width: 510px){
+    .container{
+        width: 80%;
+    }
+
+    .header-container img{
+        width: 25px;
+        margin-top: 2rem;
+        margin-bottom: -2rem;
+    }
+
+    .name, .country{
+        font-size: 20px;
+    }
+    
+    .track{
+        font-size: 32px; 
+    }
+
+    .profile-picture img, .picture-bg img{
+        width: 250px;
+        height: 450px;
+    }
+
+    .picture-bg{
+        position: absolute;
+        left: -17rem;
+        top: 14rem;
+    }
+
+    .profile-picture{
+        left: -18.2rem;
+        top: 12.9rem;
+    }
+
+    .vector-img{
+        top: 35.5rem;
+        right: -2.55rem;
+    }
+
+    .contact-info{
+        margin-top: 30rem;
+        font-size: 14px;
+    }
+
+    .tools{
+        font-size: 16px;
+    }
+    
+    .tech-tools_img img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-img_container{
+        width: 40%;
+    }
+
+    .copyright{
+        font-size: 8px;
+    }
+    
+}
