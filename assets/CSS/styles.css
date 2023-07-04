@@ -473,7 +473,7 @@ footer{
     
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 365px){
     .name, .country{
         font-size: 18px;
     }
