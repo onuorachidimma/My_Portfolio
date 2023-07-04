@@ -472,3 +472,37 @@ footer{
     }
     
 }
+
+@media screen and (max-width: 380px){
+    .name, .country{
+        font-size: 18px;
+    }
+    
+    .track{
+        font-size: 25px; 
+    }
+
+    .profile-picture img, .picture-bg img{
+        width: 200px;
+        height: 450px;
+    }
+
+    .picture-bg{
+        left: -14rem;
+        top: 12rem;
+    }
+
+    .profile-picture{
+        left: -15.2rem;
+        top: 10.9rem;
+    }
+
+    .vector-img{
+        top: 31.25rem;
+        right: -2.3rem;
+    }
+
+    .contact-info{
+        margin-top: 27rem;
+    }
+}
