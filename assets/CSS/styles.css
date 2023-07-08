@@ -101,6 +101,10 @@ padding-top: 20px;
     top: -20px;
 }
 
+.my_picture{
+    object-fit: cover;
+}
+
 .vector-img{
     position: absolute;
     right: -3.3rem;
@@ -173,14 +177,19 @@ footer{
         font-size: 13px;
     }
     
-    .profile-picture img, .picture-bg img{
+    .picture-bg img{
         width: 350px;
         height: 610px;
     }
 
+    .profile-picture img{
+        width: 350px;
+        height: 510px;
+    }
+
     .profile-picture{
         right: 20px;
-        top: -20px;
+        top: 28px;
     }
 
     .vector-img img{
@@ -223,10 +232,18 @@ footer{
     .footer-img_container{
         width: 21%;
     }  
+
+    .profile-picture img{
+        height: 515px;
+    }
+
+    .profile-picture{
+        top: 30px;
+    }
 }
 
 @media screen and (max-width: 960px) {
-   
+
     .name, .country{
         font-size: 22px;
     }
@@ -238,6 +255,13 @@ footer{
     .profile-picture img, .picture-bg img{
         width: 300px;
         height: 560px;
+    }
+    .profile-picture img{
+        height: 430px;
+    }
+
+    .profile-picture{
+        top: 43px;
     }
 
     .vector-img{
@@ -299,6 +323,15 @@ footer{
 
     .profile-picture img, .picture-bg img{
         width: 275px;
+    }
+
+    .profile-picture img{
+        height: 400px;
+    }
+
+    .profile-picture{
+        right: 20px;
+        top: 60px;
     }
 
     .vector-img{
@@ -368,30 +401,35 @@ footer{
     }
     
     .track{
-        font-size: 41px;
+        font-size: 40px;
         line-height: 12px;  
     }
 
-    .profile-picture img, .picture-bg img{
-        width: 450px;
-        height: 500px;
+    .picture-bg img{
+        width: 360px;
+        height: 600px;
+    }
+
+    .profile-picture img{
+        width: 360px;
+        height: 520px;
     }
 
     .picture-bg{
         position: absolute;
-        left: -26rem;
+        left: -23rem;
         top: 17rem;
         z-index: -1;
     }
 
     .profile-picture{
-        left: -27.2rem;
-        top: 15.9rem;
+        left: -24.2rem;
+        top: 18.5rem;
     }
 
     .vector-img{
-        top: 44.4rem;
-        right: -2.6rem;
+        top: 48.2rem;
+        right: -3.3rem;
     }
 
     .contact-info{
@@ -405,6 +443,10 @@ footer{
 
     .copyright{
         font-size: 8px;
+    }
+
+    footer{
+        margin-top: 10rem;
     }
     
 }
@@ -428,25 +470,30 @@ footer{
         font-size: 32px; 
     }
 
-    .profile-picture img, .picture-bg img{
-        width: 250px;
-        height: 450px;
+    .picture-bg img{
+        width: 280px;
+        height: 550px;
+    }
+
+    .profile-picture img{
+        width: 280px;
+        height: 410px;
     }
 
     .picture-bg{
         position: absolute;
-        left: -17rem;
-        top: 14rem;
+        left: -18rem;
+        top: 12rem;
     }
 
     .profile-picture{
-        left: -18.2rem;
-        top: 12.9rem;
+        left: -19.2rem;
+        top: 15rem;
     }
 
     .vector-img{
-        top: 35.5rem;
-        right: -2.55rem;
+        top: 38rem;
+        right: -3.3rem;
     }
 
     .contact-info{
@@ -457,11 +504,16 @@ footer{
     .tools{
         font-size: 16px;
     }
+
+    .contact-info{
+        margin-top: 33rem;
+    }
     
     .tech-tools_img img{
         width: 40px;
         height: 40px;
     }
+
 
     .footer-img_container{
         width: 40%;
@@ -474,6 +526,7 @@ footer{
 }
 
 @media screen and (max-width: 365px){
+
     .name, .country{
         font-size: 18px;
     }
@@ -482,24 +535,29 @@ footer{
         font-size: 25px; 
     }
 
-    .profile-picture img, .picture-bg img{
+    .picture-bg img{
         width: 200px;
-        height: 450px;
+        height: 550px;
+    }
+
+    .profile-picture img{
+        width: 200px;
+        height: 290px;
     }
 
     .picture-bg{
-        left: -14rem;
-        top: 12rem;
+        left: -15rem;
+        top: 9rem;
     }
 
     .profile-picture{
-        left: -15.2rem;
-        top: 10.9rem;
+        left: -16.2rem;
+        top: 16rem;
     }
 
     .vector-img{
         top: 31.25rem;
-        right: -2.3rem;
+        right: -1rem;
     }
 
     .contact-info{
@@ -510,5 +568,20 @@ footer{
 @media screen and (max-width: 285px){
     .container{
         width: 88%;
+    }
+
+    .picture-bg{
+        left: -14.6rem;
+        top: 9rem;
+    }
+
+    .profile-picture{
+        left: -15.5rem;
+        top: 16rem;
+    }
+
+    .vector-img{
+        top: 31.25rem;
+        right: -1.5rem;
     }
 }
